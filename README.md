@@ -1,4 +1,4 @@
-# Reef3D-Viewer
+# Reef3D-Viewer <img src="assets/model.gif" alt="Reef3D-Viewer">
 
 A demo of photogrammetry-based 3D modeling of a coral reef, reconstructed with [Agisoft MetaShape](https://www.agisoft.com/) and displayed in the browser using [`<model-viewer>`](https://modelviewer.dev/).
 
