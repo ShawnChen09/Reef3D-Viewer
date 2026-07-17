@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Coral Reef</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #FFFFFF; }
+        model-viewer { width: 100%; height: 100%; }
+    </style>
+</head>
+<body>
+    <model-viewer
+        src="assets/model.glb"
+        poster="assets/vis_color.png"
+        auto-rotate
+        camera-controls>
+    </model-viewer>
+</body>
+</html>
